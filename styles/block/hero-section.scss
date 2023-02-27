@@ -13,7 +13,6 @@
     &__left {
         display: flex;
         flex-direction: column;
-        
 
         &__top, &__mid {
             flex: 2;
@@ -22,9 +21,6 @@
         &__mid h2, &__bot {
             font-size: 18px;
             color: #E5E7EB;
-        }
-
-        &__mid h2 {
             font-weight: 200;
         }
 
@@ -42,7 +38,6 @@
             font-size: 48px;
             font-weight: 800;
             color: #F9FAF8;
-
         }
     }
 

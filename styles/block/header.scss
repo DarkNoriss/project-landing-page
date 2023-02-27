@@ -2,4 +2,30 @@
     background: #1F2937;
     height: 60px;
     padding: $section-padding;
+    display: flex;
+    
+    &__logo, &__link {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        text-align: right;
+    }
+
+    &__logo header {
+        font-size: 24px;
+        font-weight: 800;
+        color: #F9FAF8;
+    }
+
+    &__link {
+        &-one, &-two, &-three {
+            flex: 1;
+        }
+
+        & h2 {
+            font-size: 18px;
+            color: #E5E7EB;
+            font-weight: 200;
+        }
+    }
 }

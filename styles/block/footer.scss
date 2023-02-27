@@ -2,4 +2,8 @@
     background: #1F2937;
     height: 60px;
     padding: $section-padding;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #F9FAF8;
 }
