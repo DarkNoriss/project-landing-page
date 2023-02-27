@@ -1,0 +1,11 @@
+.hero-section {
+    background: #1F2937;
+    width: $block-width;
+    height: 240px;
+    padding: $section-padding;
+    display: flex;
+
+    &__left, &__right {
+        flex: 1;
+    }
+}
