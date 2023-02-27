@@ -1,11 +1,56 @@
 .hero-section {
     background: #1F2937;
-    width: $block-width;
-    height: 240px;
+    height: 400px;
     padding: $section-padding;
     display: flex;
+    gap: 20px;
 
     &__left, &__right {
+        margin: 75px 0px 75px;
         flex: 1;
+    }
+    
+    &__left {
+        display: flex;
+        flex-direction: column;
+        
+
+        &__top, &__mid {
+            flex: 2;
+        }
+
+        &__mid h2, &__bot {
+            font-size: 18px;
+            color: #E5E7EB;
+        }
+
+        &__mid h2 {
+            font-weight: 200;
+        }
+
+        &__bot {
+            flex: 1;
+            font-weight: 700;
+            width: 30%;
+            background: #3882F6;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        &__top h1 {
+            margin: 0;
+            font-size: 48px;
+            font-weight: 800;
+            color: #F9FAF8;
+
+        }
+    }
+
+    &__right {
+        background: rgb(156, 156, 156);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 }
